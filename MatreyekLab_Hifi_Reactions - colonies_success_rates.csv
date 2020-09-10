@@ -1,0 +1,264 @@
+number,sample,name,success,muts_of,precursor1,clone1,precursor1_name,precursor2,clone2,precursor2_name,text_colonies,colonies,parts,gibson,tested,combined,comb_rate,bkgd_colony,nomuts,successful_1,running_success_total,verified_clone,comment1,comment2,project
+1,G520,G520_attB(GT)_attP(GA)-EGFP,G520B,,R1,,attB-EGFP,,,,12,12,2,yes,3,2,0.67,4,1,1,1,B,,,recombinastics
+2,G521,G521_Kan-UnaG,G521B,,A83413,,,R3,,,~100-200,150,2,yes,3,2,0.67,50,2,1,2,B,,,fp_standards
+3,G522,G522_attB_EGFP_BICEP(GA),,,,,,,,,125,125,2,yes,3,0,0.00,design flaw?,0,0,2,----- none -----,,,recombinastics
+4,G523,G523_attB_mCherry_BICEP(GA),,,,,,,,,83,83,2,yes,3,0,0.00,design flaw?,0,0,2,----- none -----,,,recombinastics
+5,G524,G524_pBS-L1PA8CHmneo-2A-mNeonGreen,G524A,,R4,,pKan-mCherry,A69608,,,20,20,2,yes,3,2,0.67,7,2,1,3,A,fully verify?,,dir_evol
+6,G525,G525_attB-SV(nsp1234)-iM2P,,,,,,,,,46,46,2,yes,3,0,0.00,46,0,0,3,----- none -----,,,dir_evol
+7,G526,--- redundant ---,,,,,,,,,101,101,,yes,NA,NA,NA,NA,NA,1,4,--- redundant ---,,,NA
+8,G527,--- redundant ---,,,,,,,,,27,27,,yes,NA,NA,NA,NA,NA,1,5,--- redundant ---,,,NA
+9,G528,G528_attB-mScarlet,G528B,,R2,,attB-mCherry,,,,3,3,2,yes,3,1,0.33,2,1,1,6,B,,,fp_standards
+10,G529,G529_pAluYa5-neoTET-2A-mNeonGreen,,,,,,,,,0,0,2,yes,0,0,0.00,0,0,0,6,----- none -----,,,dir_evol
+11,G530,G530_attB(GT)_MEFV_IRES-mCherry-2A-Puro,G530A,,A92103,,,G274,A,,2,2,2,yes,2,1,0.50,1,1,1,7,A,,,inflammasome
+12,G531,G531_pKan-mScarlet,G531B,,A85052,,,R3,,,~100,100,2,yes,3,2,0.67,33,2,1,8,B,,,fp_standards
+13,G532,G532_pAluYa5-neoTET-2A-mNeonGreen,G532F,,A51283,,,R4,,,6,6,2,yes,6,1,0.17,5,1,1,9,F,fully verify?,,dir_evol
+14,G533,G533_AttB(GA)_attP(GT)_mCherry_Bgl2,G533A,,G421,C,,,,,93,93,1,yes,1,1,1.00,0,1,1,10,A,,,recombinastics
+15,G534,G534_attB(GT)-FUCCI-2P,G534A,,A86849,,,G274,A,,57,57,2,yes,3,2,0.67,19,1,1,11,A,,,
+16,G535,G535_pLenti-Tet-coBxb1-2A-BFP_IRES_iCasp9-2A-Blast_rtTA3,,,,,,,,,13,13,2,yes,13,0,0.00,13,0,0,11,----- none -----,,,lp_improvement
+17,G536,G536_AttB_EGFPsurface-IRES-mCherry-P2A-PuroR,G536G,,A79129,,,G274,A,,8,8,2,yes,8,1,0.13,7,1,1,12,G,,,retargeted_entry
+18,G537,G537_attB-3kGi-MeaslesF,G537B,,A58798,,,R15,,attB_3kGiM,~100-200,150,2,yes,4,4,1.00,0,4,1,13,B,Use G544B,,retargeted_entry
+19,G538,G538-Hc∆18-AA-LaG17,,,,,,,,,10,10,2,yes,4,0,0.00,10,0,0,13,----- none -----,,,retargeted_entry
+20,G539,G539_AttB_MEFV-IRES-ASC-mCherry-P2A-PuroR,G539A,,G530,A,,G274,A,,13,13,2,yes,4,2,0.50,7,2,1,14,A,C as backup,,inflammasome
+21,G540,G540_BattB-mCherry-2A-Puro_WPRE-Blast,,,,,,,,,160,160,2,yes,2,0,0.00,160,0,0,14,----- none -----,,,bc-lvs
+22,G541,G541_AttB_PIF6-Casp9-IRES-mCherry-P2A-PuroR,G541A,,A50851,,,G504,C,,83,83,2,yes,2,2,1.00,0,2,1,15,A,,,optogenetics
+23,G542,G542_pLenti-Tet-coBxb1-2A-BFP_IRES_iCasp9-2A-Blast_rtTA3,G542A,,R15,,attB_3kGiM,G416,E,,15,15,2,yes,4,2,0.50,8,2,1,16,A,B as backup,,lp_improvement
+24,G543,G543_attB-SV(nsp1234)-iM2P,G543A,,A127695,,,G274,A,,58,58,2,yes,2,2,1.00,0,2,1,17,A,,,dir_evol
+25,G544,G544B_attB-3kGi-MeaslesF(fixed),G544B,,G537,B,,,,,,,1,yes,2,2,1.00,0,1,1,18,B,,,retargeted_entry
+26,G545,G545_pLenti-CMV-EGFP-2A-mNeonGreen,G545A,,G70,C,,,,,~100-200,150,1,yes,2,2,1.00,0,2,1,19,A,,,pseudoviruses
+27,G546,G546_pLenti-CMV-mCherry_Puro,G546B,,R5,,pKan-mCherry,G70,C,,~100-200,150,2,yes,4,2,0.50,75,1,1,20,B,,,pseudoviruses
+28,G547,G547_AttB_CPH1-Casp9-IRES-HygroR-2A-NeoR-3kGFP,G547A,,G176,A,,G505,A,,~100-200,150,2,yes,3,2,0.67,50,1,1,21,A,,,optogenetics
+29,G548,G548_AttB_VSVG-IRES-mCherry-P2A-PuroR,G548A,,A12259,,pMD2.G,G274,A,,~100-200,150,2,yes,2,2,1.00,0,2,1,22,A,,,pseudoviruses
+30,G549,G549_AttB_MEFV-IRES-mCherry-P2A-PuroR-2A-ASC,,,,,,,,,1,1,2,yes,1,0,0.00,1,0,0,22,----- none -----,,,inflammasome
+31,G550,G550_Hc∆18-AA-LaG17,,,,,,,,,32,32,2,yes,4,0,0.00,32,0,0,22,----- none -----,,,retargeted_entry
+32,G551,G551_attB_attP(GA)_EGFP-2A-HygroR,G551A,,G273,A,,G520,B,,123,123,2,yes,3,3,1.00,0,1,1,23,A,,,recombinastics
+33,G552,G552_AttB(GA)-AttB(GT)_sGFP-PTEN-IRES-mCherry-P2A-HygroR,G552A,,G273,A,,,,,30,30,1,yes,3,2,0.67,10,1,1,24,A,"mut IRES, mut HygroR)",,recombinastics
+34,G553,G553_AttB(GA)-AttB(GT)_sGFP-PTEN-IRES-mCherry-P2A-PuroR,G553B,,G274,A,,,,,78,78,1,yes,3,2,0.67,26,1,1,25,B,,,recombinastics
+35,G554,G554_AttB_sGFP-PTEN-IRES-mCherry-P2A-HygroR_attP(GA),G554A,,G273,A,,,,,17,17,1,yes,3,1,0.33,11,1,1,26,A,(mut HygroR),,recombinastics
+36,G555,G555_AttB_sGFP-PTEN-IRES-mCherry-P2A-PuroR_attP(GA),G555A,,G274,A,,,,,100,100,1,yes,3,2,0.67,33,1,1,27,A,(mut in PTEN),,recombinastics
+37,G556,G556_AttB_GAGPOL-IRES-mCherry-P2A-PuroR,G556A,,A12260,,PsPax2,G274,A,,9,9,2,yes,3,2,0.67,3,1,1,28,A,,,pseudoviruses
+38,G557,G557_pKan-MeaslesF,G557B,,G544,B,,R3,,,~1000,1000,2,yes,2,2,1.00,0,1,1,29,B,Fully seq?,,retargeted_entry
+39,G558,G558_pLenti-Tet-coBxb1-2A-BFP_IRES_iCasp9-2A-Blast_rtTA3-2A-E7,G558D,,KAM2474,,,G542,A,,9,9,2,yes,6,1,0.17,8,1,1,30,D,Fully seq?,,lp_improvement
+40,G559,G559_pLenti-Tet-coBxb1-2A-BFP_IRES_iCasp9-2A-Blast_SV40Tag-2A-rtTA3,,,,,,,,,28,28,2,yes,8,0,0.00,28,0,0,30,----- none -----,,,lp_improvement
+41,G560,G560_AttB_CPH1-Casp9-IRES-HygroR-2A-3kGFP,G560A,,G547,A,,,,,7,7,1,yes,2,1,0.50,4,,,30,A,,,optogenetics
+42,G561,G561_BattB-3kGFP_WPRE_3LTR,,,,,,,,,~150,150,1,yes,11,0,0.00,150,,,30,----- none -----,,,bc-lvs
+43,G562,G562_AttB_sGFP-PTEN-IRES-mCherry-P2A-HygroR_5LTR-Ptet-attP,G562B,,G227,A,,G273,A,,58,58,2,yes,2,2,1.00,0,1,1,31,B,A maybe OK.,,bc-lvs
+44,G563,G563A_AttB_(Del)MEFV-IRES-ASC-mCherry-P2A-PuroR,G563A,,G539,A,,,,,70,70,1,yes,2,2,1.00,0,,1,32,A,,,inflammasome
+45,G564,G564_AttB_hGMCSF-IRES-mCherry-P2A-PuroR,G564A,,A74168,,pAIP_hGMCSF co,G274,A,,~200,200,2,yes,2,2,1.00,0,1,1,33,A,,,misc
+46,G565,G565_AttB_sGFP-PTEN-IRES-fuGFP-P2A-HygroR,G565A,,G273,A,,,,,~200,200,2,yes,2,2,1.00,0,,1,34,A,Fully seq?,,misc
+47,G566,G566_AttB_sGFP-PTEN-IRES-fuGFP-P2A-PuroR,G566B,,G274,A,,,,,~200,200,2,yes,2,2,1.00,0,,1,35,B,Fully seq?,,misc
+48,G567,G567_AttB_sGFP-PTEN-IRES-fuGFP-P2A-BlastR,G567B,,G275,B,,,,,~200,200,2,yes,2,2,1.00,0,,1,36,B,Fully seq?,,misc
+49,G568,G568_AttB_MEFV-IRES-mCherry-P2A-PuroR-2A-ASC,,,,,,,,,160,160,2,yes,8,0,0.00,160,0,0,36,----- none -----,,,inflammasome
+50,G569,G569A_AttB(GA)-AttB(GT)_sGFP-PTEN-IRES-mCherry-P2A-PuroR_attP(GA),G569A,,G553,B,,,,,176,176,1,yes,3,2,0.67,59,1,1,37,A,,,recombinastics
+51,G570,G570_AttB_His8EGFPsurface-IRES-mCherry-P2A-PuroR,G570C,,G356,G,,,,,8,8,1,yes,3,1,0.33,5,1,1,38,C,,,lp_improvement
+52,G571,G571A_AttB_MEFV(Fix)-IRES-ASC-mCherry-P2A-PuroR,G571A,,G539,A,,,,,~300,300,1,yes,3,3,1.00,0,1,1,39,A,,,inflammasome
+53,G572,G572B_pKan-fuGFP,G572B,,A127674,,,R3,,,~1000,1000,2,yes,2,2,1.00,0,1,1,40,B,,,fp_standards
+54,G573,G573_AttB_PIF6-Casp9-IRES-mCherry-P2A-PuroR-T2A-Phy2,,,,,,,,,33,33,2,yes,3,0,0.00,33,,0,40,----- none -----,,,optogenetics
+55,G574,G574E_AttB(GA)-AttB(GT)_sGFP-PTEN-IRES-mCherry-P2A-HygroR_attP(GA),G574E,,G552,A,,,,,129,129,1,yes,7,1,0.14,111,1,1,41,E,mut in HygroR),,recombinastics
+56,G575,G575_(GA)pLenti-Tet-coBxb1-2A-BFP_IRES_iCasp9-2A-Blast_rtTA3,G575A,,G542,A,,G533,A,,46,46,1,yes,5,5,1.00,0,1,1,42,A,,,lp_improvement
+57,G576,G576_pLenti-CMV-iCasp9-2A-mNeonGreen_Puro,G576A,,G416,E,,G70,C,,152,152,2,yes,7,6,0.86,22,1,1,43,A,,,pseudoviruses
+58,G577,G577_pLenti-CMV-iCasp9-2A-mNeonGreen,G577A,,G416,E,,G545,A,,21,21,2,yes,1,1,1.00,0,1,1,44,A,,,pseudoviruses
+59,G578,G578_AttB(GA)_attP(GT)_coBxb1-2A-BFP_IRES_iCasp9-2A-Blast,G578B,,G542,A,,G533,A,,67,67,2,yes,1,1,1.00,0,1,1,45,B,(H->Y at very end of Bxb1),,recombinastics
+60,G579,G579_AttB_MeaslesH-2A-3kGFP-IRES-MeaslesF,,,,,,,,,4,4,2,yes,4,0,0.00,4,0,0,45,----- none -----,,,retargeted_entry
+61,G580,G580_AttB(GT)_attP(GA)_coBxb1-2A-BFP_IRES_iCasp9-2A-Blast,G580A,,G542,A,,G551,A,,52,52,2,yes,5,4,0.80,10,1,1,46,A,,,recombinastics
+62,G581,G581_AttB_sGFP-PTEN-IRES-mCherry-P2A-HygroR_5LTR-Ptet-attP(GA),G581A,,G562,B,,,,,201,201,1,yes,2,2,1.00,0,1,1,47,A,,,bc-lvs
+63,G582,G582_AttB(GA)_sGFP-PTEN-IRES-mCherry-P2A-HygroR_5LTR-Ptet-attP,G582A,,G562,B,,,,,49,49,1,yes,2,2,1.00,0,1,1,48,A,,,bc-lvs
+64,G583,G583_AttB(GA)-AttB(GT)_mCherry-P2A-PuroR_attP(GA),G583A,,G569,A,,,,,100s,300,1,yes,1,1,1.00,0,1,1,49,A,,,recombinastics
+65,G584,G584_pLenti-CMV-iCasp9-2A-mCherry_Puro,,,,,,,,,2,2,2,yes,2,0,0.00,2,0,0,49,----- none -----,,,pseudoviruses
+66,G585,G585_AttB_Cas9HF1-IRES-mCherry-P2A-PuroR,G585A,,A72247,,,G274,A,,100s,300,2,yes,2,1,0.50,150,,1,50,A,Fully seq?,,optogenetics
+67,G586,G586_pLenti-Tet-coBxb1-2A-BFP_IRES_iCasp9-2A-Blast_rtTA3-His8,G586A,,G542,A,,,,,3,3,1,yes,2,2,1.00,0,,1,51,A,Fully seq?,,lp_improvement
+68,G587,G587A_AttB_SBP-EGFPsurface-IRES-mCherry-P2A-PuroR,G587A,,G536,G,,,,,25,25,1,yes,2,2,1.00,0,1,1,52,A,,,lp_improvement
+69,G588,G588A_AttB_(CATTGT)MEFV-IRES-ASC-mCherry-P2A-PuroR,G588A,,G571,A,,,,,47,47,1,yes,2,2,1.00,0,1,1,53,A,,,inflammasome
+70,G589,G589_AttB(GA)-AttB(GT)_mCherry-P2A-HygroR_attP(GA),G589A,,G574,E,,,,,100-200,150,1,yes,2,2,1.00,0,1,1,54,A,(A->T in hygro,,recombinastics
+71,G590,G590_pLenti-BiTet-coBxb1-2A-BFP_IRES_iCasp9-2A-Blast_rtTA3,,,,,,,,,2,2,2,yes,2,0,0.00,2,0,0,54,----- none -----,,,lp_improvement
+72,G591,G591_AttB_MeaslesH-2A-3kGFP-IRES-MeaslesF,,,,,,,,,100s,500,2,no,4,0,0.00,500,0,0,54,----- none -----,,,retargeted_entry
+73,G592,G592_AttB_PIF6-Casp9-IRES-mCherry-P2A-PuroR-T2A-Phy2,G592C,,A50839,,,G541,A,,168,168,2,no,2,1,0.50,84,1,1,55,C,rameshift to fix),,optogenetics
+74,G593,G593_AttB_MEFV-IRES-mCherry-P2A-PuroR-2A-ASC,,,,,,,,,21,21,2,no,4,0,0.00,21,0,0,55,----- none -----,,,inflammasome
+75,G594,G594_AttB(GA)-3kG-P2A-PTEN_rtTA3_Blast_3LTR,G594A,,G153,B,,,,,284,284,1,no,4,4,1.00,0,1,1,56,A,"(B,C,D as backup)",,bc-lvs
+76,G595,G595A_AttB(GA)-AttB(GT)_sGFP-PTEN-IRES-mCherry-P2A-HygroR_noTerm_attP(GA),G595A,,G574,E,,,,,14,14,1,no,4,2,0.50,7,1,1,57,A,B as backup),,recombinastics
+77,G596,G596A_AttB(GA)-AttB(GT)_sGFP-PTEN-IRES-mCherry-P2A-PuroR_noTerm_attP(GA),G596A,,G569,A,,,,,~1000,1000,1,no,2,2,1.00,0,1,1,58,A,B as backup),,recombinastics
+78,G597,G597_AttB_MEFV(Fix)-IRES(v10)-ASC-mCherry-P2A-PuroR,G597A,,G571,A,,,,,100s,500,1,no,2,2,1.00,0,1,1,59,A,,,inflammasome
+79,G598,G598_attB-Low(TATTGC)3kGiM,,,,,,,,,249,249,1,no,8,0,0.00,249,,0,59,----- none -----,,,misc
+80,G599,G599_attB-High(TTCATC)3kGiM,,,,,,,,,100s,500,1,no,8,0,0.00,500,,0,59,----- none -----,,,misc
+81,G600,G600_AttB(GA)-AttB(GT)_mCherry-P2A-PuroR_noTerm_attP(GA),G600A,,G583,A,,,,,~600,600,1,no,4,4,1.00,0,1,1,60,A,,,recombinastics
+82,G601,G601_pLenti-BiTet-coBxb1-2A-BFP_IRES_iCasp9-2A-Blast_rtTA3,,,,,,,,,56,56,2,no,4,0,0.00,56,,0,60,----- none -----,,,lp_improvement
+83,G602,G602_pLenti-CMV-iCasp9-2A-mNeonGreen-2A-PuroR,G602F,,G274,A,,G577,A,,207,207,2,no,4,0,0.00,207,,0,60,F,,,pseudoviruses
+84,G603,G603_pLenti-CMV-EGFP-2A-mNeonGreen-2A-PuroR,,,,,,,,,321,321,2,no,8,0,0.00,321,,0,60,----- none -----,,,pseudoviruses
+85,G604,G604_pLenti-CMV-iCasp9-2A-mCherry_Puro,G604A,,G416,E,,G546,B,,80,80,2,no,2,2,1.00,0,1,1,61,A,(stop codon bad but should work) B backup?,,pseudoviruses
+86,G605,G605_AttB_CPSF6-358-IRES-mCherry-P2A-PuroR,G605B ,,A110694,,,G274,A,,116,116,2,no,2,1,0.50,58,1,1,62,B ,,,targeted_deg
+87,G606,G606_AttB_CRBN-IRES-mCherry-P2A-PuroR,G606D,,A124303,,,G274,A,,~300,300,2,no,10,1,0.10,270,,1,63,D,,,targeted_deg
+88,G607,G607_AttB_muTrim21-IRES-mCherry-P2A-PuroR,G607H,,G50,,,G274,A,,~300,300,2,no,12,1,0.08,275,,1,64,H,,,targeted_deg
+89,G608,G608_AttB_rhT5alpha-IRES-mCherry-P2A-PuroR,G608A,,A80282,,,G274,A,,~200,200,2,no,2,2,1.00,0,,1,65,A,(But frameshift that needs to be fixed),,targeted_deg
+90,G609,G609_AttB_TrimCyp-IRES-mCherry-P2A-PuroR,G609A,,A64268,,,G274,A,,~200,200,2,no,2,2,1.00,0,1,1,66,A,,,targeted_deg
+91,G610,G610_AttB_NUP153-IRES-mCherry-P2A-PuroR,,,,,,G274,A,,59,59,2,no,6,0,0.00,59,,0,66,----- none -----,,,targeted_deg
+92,G611,G611_AttB_ACE2-IRES-mCherry-P2A-PuroR,,,A1786,,,G274,A,,~200,200,2,no,12,0,0.00,200,,0,66,-- replaced by G627 --,,,ace2
+93,G612,G612_AttB_CD74(p41)3xFLAG-IRES-mCherry-P2A-PuroR,,,,,,G274,A,,~200,200,2,no,2,0,0.00,200,,0,66,-- replaced by G628 --,,,p41
+94,G613,G613_attB_hACE2-E2A-FlipGFP-TEVcs-GGSGP2A-mCherry_Bgl2,,,A1786,,,G464,D,,121,121,2,no,12,0,0.00,121,,0,66,----- none -----,,,ace2
+95,G614,G614_attB-FlipGFP-3CLpro(1)-P2A-mCherry,G614A/B,,G464,D,,,,,~600,600,1,no,2,2,1.00,0,,1,67,A/B,B also good,,protease_sensor
+96,G615,G615_attB-FlipGFP-3CLpro(2)-P2A-mCherry,G615B,,G464,D,,,,,~500,500,1,no,2,1,0.50,250,,1,68,B,,,protease_sensor
+97,G616,G616_attB-FlipGFP-3CLpro(3)-P2A-mCherry,G616A/B,,G464,D,,,,,~400,400,1,no,2,2,1.00,0,,1,69,A/B,B also good,,protease_sensor
+98,G617,G617_pcDNA3.1(-)SARS-Sd19,,,,,,,,,~200,200,1,no,8,4,0.50,100,,1,70,C,"F,G,H also likely OK",,ace2
+99,G618,G618_AttB_hTrim-NUP153CTD-IRES-mCherry-P2A-PuroR,G618A?,,A64268,,,G609,A,,~200,200,2,no,2,1,0.50,100,,1,71,A?,,,targeted_deg
+100,G619,G619_AttB_hTrim-CPSF6(301-358)-IRES-mCherry-P2A-PuroR,,,,,,,,,~200,200,2,no,8,2,0.25,150,,1,72,C?,F also good?,,misc
+101,G620,G620_AttB_sGFP-PTEN-IRES-mNeonGreen-P2A-PuroR,,,,,,,,,~200,200,2,no,6,0,0.00,200,,0,72,----- none -----,,,fp_standards
+102,G621,G621A_AttB_EGFP-IRES-mCherry-P2A-PuroR,G621A,,R3,,,G274,A,,~200,200,2,no,4,1,0.25,150,,1,73,A,,,fp_standards
+103,G622,G622A_AttB_mNeonGreen-IRES-mCherry-P2A-PuroR,G622A,,R4,,,G274,A,,~200,200,2,no,4,2,0.50,100,,1,74,A,Fully seq? B also maybe good?,,fp_standards
+104,G623,G623_pLenti-Tet-coBxb1-2A-BFP_IRES_iCasp9-2A-Blast_rtTA3-SBP,,,G587,A,,G274,A,,~200,200,2,no,8,0,0.00,200,,0,74,----- none -----,,,lp_improvement
+105,G624,G624_AttB_sGFP-PTEN-IRES-EGFP-P2A-PuroR,,,,,,,,,~100,100,2,no,6,0,0.00,100,,0,74,----- none / design wrong -----,,,fp_standards
+106,G625,G625_AttB_UnaG-IRES-mCherry-P2A-PuroR,,,,,,,,,~200,200,2,no,6,1,0.17,167,,1,75,F,,,fp_standards
+107,G626,G626D_AttB_sGFP-PTEN-IRES-UnaG-P2A-PuroR,G626D,,G521,B,,G274,A,,~200,200,2,no,4,1,0.25,150,,1,76,D,Fully seq?,<-- didn't survive puro(P1) treatment,fp_standards
+108,G627,G627B_AttB_ACE2-IRES-mCherry-P2A-PuroR,,,,,,,,,147,147,2,yes,3,1,0.33,98,1,1,77,B,,<-- didn't survive puro(P1) treatment,ace2
+109,G628,G628D_AttB_CD74(p41)3xFLAG-IRES-mCherry-P2A-PuroR,,,,,,,,,48,48,2,yes,3,0,0.00,48,,0,77,D,,,p41
+110,G629,G629_hACE2-E2A-FlipGFP-TEVcs-GGSGP2A-mCherry_Bgl2,,,,,,,,,143,143,2,yes,3,0,0.00,143,,0,77,,,,protease_sensor
+111,G630,G630A_AttB_fuGFP-IRES-mCherry-P2A-PuroR,,,,,,,,,~400,400,2,yes,3,3,1.00,0,,1,78,A,B/C as backup?,,fp_standards
+112,G631,G631_AttB-3kG-2A-Blast_3LTR,,,,,,,,,57,57,1,yes,4,0,0.00,57,,0,78,,,<-- Set up more colonies,
+113,G632,G632D_AttB(GA)-3kG-P2A-Blast,,,G594,,,,,,,,1,yes,4,1,0.25,0,,1,79,D,,,bc-lvs
+114,G633,G633A_AttB_Trastuzumab-IgM-IRES-mCherry-P2A-PuroR,,,A61881,,,G274,A,,,,2,yes,4,4,1.00,0,,1,80,A?,B/C/D as backup?,,misc
+115,G634,G634_pcDNA6B-nCoV-SdC19-FLAG,,,G634,,,R14,,pcDNA6B-nCoV-S-FLAG,0,0,1,yes,0,0,0.00,0,,0,80,----- none -----,,,ace2
+116,G635,G635A_pLenti-CMV-iRFP670-2A-nsp5,,,R11,,[Tilton]_CMV-nsp5,G171,G,,,,2,yes,4,4,1.00,0,,1,81,A?,B/D as backup?,,protease_sensor
+117,G636,G636A_AttB_rhT5alpha-IRES-mCherry-P2A-PuroR,,,G608,A,,,,,,,1,yes,2,2,1.00,0,,1,82,A?,B as backup?,,targeted_deg
+118,G637,G637A_pLenti-Trim5alpha_CMV-Puro,,,G50,,,,,,,,1,yes,2,2,1.00,0,,1,83,A?,B as backup?,,targeted_deg
+119,G638,G638_pTwist_SARS-CoV2-S(WT_RRARmut),,,R13,,pTwist_SARS-CoV2-S(WT),,,,0,0,1,yes,0,0,0.00,,,0,83,----- none -----,,,ace2
+120,G639,G639_pTwist_SARS-CoV2-S(WT_KV>PP),,,R13,,pTwist_SARS-CoV2-S(WT),,,,0,0,1,yes,0,0,0.00,,,0,83,----- none -----,,,ace2
+121,G640,G640_pTwist_SARS-CoV2-S(WT-dCT),,,R13,,pTwist_SARS-CoV2-S(WT),,,,0,0,1,yes,0,0,0.00,,,0,83,----- none -----,,,ace2
+122,G641,G641B_pcDNA3.1(-)SARS-CoV2-S(COpt[FLAG]),,,R14,,pcDNA6B-nCoV-S-FLAG,R12,,SARS1-S,33,33,2,yes,4,4,1.00,0,,1,84,B?,C/D as backup?,,ace2
+123,G642,G642_pcDNA3.1(-)SARS-CoV2-S(WT[pTwist]),,,R14,,pcDNA6B-nCoV-S-FLAG,R12,,SARS1-S,58,58,2,yes,4,0,0.00,58,,0,84,----- none -----,,,ace2
+124,G643,G643_AttB_ACE2-IRES-miRFP670-P2A-PuroR,,,G362,B,,G627,B,,4,4,2,yes,4,0,0.00,4,,0,84,----- none -----,,,ace2
+125,G644,G644_AttB_ACE2-IRES-H2B-mCherry-P2A-PuroR,,,A62450,,,G627,B,,7,7,2,yes,4,0,0.00,7,,0,84,----- none -----,,,ace2
+126,G645,G645D_pLenti-CMV-iCasp9-2A-H2B-mNeonGreen,,,A62450,,,G577,A,,34,34,2,yes,4,1,0.25,26,,1,85,D,,,pseudoviruses
+127,G646,G646A_pLenti-CMV-iCasp9-2A-H2B-mNeonGreen-2A-PuroR,,,A62450,,,G602,F,,35,35,2,yes,4,1,0.25,26,,1,86,A,,,pseudoviruses
+128,G647,G647B_pLenti-CMV-H2B-EGFP-2A-mNeonGreen,,,A62450,,,G545,A,,233,233,2,yes,4,3,0.75,58,,1,87,B?,"C,D as backup? CLONE FURTHER!",,pseudoviruses
+129,G648,G648B_pLenti-CMV-H2B-EGFP-2A-mNeonGreen_Puro,,,A62450,,,G70,C,,11,11,2,yes,4,2,0.50,6,,1,88,B?,C as backup? CLONE FURTHER!,,pseudoviruses
+130,G649,G649_pVITRO1-SARSCoV2(RBD)-IgM/κ,,,R14,,pcDNA6B-nCoV-S-FLAG,A61881,,Addgene_61881_pVITRO1-Trastuzumab-IgM/κ,0,0,2,yes,0,0,0.00,,,0,88,----- none -----,,,ace2
+131,G650,G650A_AttB_ACE2-GGS-HygroR_IRES-mCherry-P2A-PuroR,,,A151193,,pcDNA3-TDsmURFP-IRES-HO-1_151193,G627,B,,11,11,2,yes,4,3,0.75,3,,1,89,A,B/C as backup?,,ace2
+132,G651,G651A_AttB_mNeonGreen-LacZ-IRES-mCherry-P2A-PuroR,,,A67759,,,G622,A,,132,132,2,yes,4,2,0.50,66,,1,90,A,D as backup?,,fp_standards
+133,G652,G652B_AttB_Bpro-mNeonGreen-IRES-mCherry-P2A-PuroR,,,G622,A,,,,,42,42,1,yes,4,2,0.50,21,,1,91,B,D as backup? CLONE FURTHER!,,fp_standards
+134,G653,G653_AttB_UnaG_WPRE_IRES-mCherry-P2A-PuroR,,,A67759,,,G625,F,,0,0,2,yes,0,0,0.00,,,0,91,----- none -----,,,fp_standards
+135,G654,G654_AttB_mNeonGreen_WPRE_IRES-mCherry-P2A-PuroR,,,A67759,,,G622,A,,3,3,2,yes,3,0,0.00,3,,0,91,----- none -----,,,fp_standards
+136,G655,G655A_AttB(GA)-AttB(GT)_sGFP-PTEN-IRES-mCherry-P2A-HygroR_noTerm_attP(GA)_IRES-UnaG-2A-Puro-Term,,,G626,D,,G595,A,,~200,200,2,yes,3,3,1.00,0,,1,92,A?,B/C as backup?,<-------- SEQ MORE!!!,recombinastics
+137,G656,G656A_AttB(GA)-AttB(GT)_sGFP-PTEN-IRES-mCherry-P2A-PuroR_noTerm_attP(GA)_IRES-UnaG-2A-Puro-Term,,,G626,D,,G596,A,,73,73,2,yes,3,3,1.00,0,,1,93,A?,B/C as backup?,<-------- SEQ MORE!!!,recombinastics
+138,G657,G657_AttB_ACE2(I21T)_IRES-mCherry-P2A-PuroR,,G627B,G627,B,,,,,,,1,no,2,2,1.00,,,1,94,A/B,,,ace2
+139,G658,G658_AttB_ACE2(I21V)_IRES-mCherry-P2A-PuroR,,G627B,G627,B,,,,,,,1,no,2,2,1.00,,,1,95,A/B,,,ace2
+140,G659,G659_AttB_ACE2(I23K)_IRES-mCherry-P2A-PuroR,,G627B,G627,B,,,,,,,1,no,2,1,0.50,,,1,96,B,,,ace2
+141,G660,G660_AttB_ACE2(K26E)_IRES-mCherry-P2A-PuroR,,G627B,G627,B,,,,,,,1,no,2,1,0.50,,,1,97,B,,,ace2
+142,G661,G661_AttB_ACE2(K26R)_IRES-mCherry-P2A-PuroR,,G627B,G627,B,,,,,,,1,no,2,1,0.50,,,1,98,B,,,ace2
+143,G662,G662_AttB_ACE2(T27A)_IRES-mCherry-P2A-PuroR,,G627B,G627,B,,,,,,,1,no,2,1,0.50,,,1,99,B,,,ace2
+144,G663,G663_AttB_ACE2(E35K)_IRES-mCherry-P2A-PuroR,,G627B,G627,B,,,,,,,1,no,2,1,0.50,,,1,100,B,,,ace2
+145,G664,G664_AttB_ACE2(E37K)_IRES-mCherry-P2A-PuroR,,G627B,G627,B,,,,,,,1,no,2,2,1.00,,,1,101,A/B,,,ace2
+146,G665,G665_AttB_ACE2(M82I)_IRES-mCherry-P2A-PuroR,,G627B,G627,B,,,,,,,1,no,2,2,1.00,,,1,102,A,,,ace2
+147,G666,G666_AttB_ACE2(G326E)_IRES-mCherry-P2A-PuroR,,G627B,G627,B,,,,,,,1,no,2,2,1.00,,,1,103,A/B,,,ace2
+148,G667,G667_AttB_ACE2(G329G)_IRES-mCherry-P2A-PuroR,,G627B,G627,B,,,,,,,1,no,2,2,1.00,,,1,104,A/B,,,ace2
+149,G668,G668_AttB_ACE2(G352V)_IRES-mCherry-P2A-PuroR,,G627B,G627,B,,,,,,,1,no,2,2,1.00,,,1,105,A/B,,,ace2
+150,G669,G669_AttB_ACE2(G355N)_IRES-mCherry-P2A-PuroR,,G627B,G627,B,,,,,,,1,no,2,2,1.00,,,1,106,A/B,,,ace2
+151,G670,G670_AttB_ACE2(Q24R)_IRES-mCherry-P2A-PuroR,,G627B,G627,B,,,,,,,1,no,2,1,0.50,,,1,107,B,,,ace2
+152,G671,G671_AttB_ACE2(D30H)_IRES-mCherry-P2A-PuroR,,G627B,G627,B,,,,,,,1,no,2,2,1.00,,,1,108,A/B,,,ace2
+153,G672,G672_AttB_ACE2(K31E)_IRES-mCherry-P2A-PuroR,,G627B,G627,B,,,,,,,1,no,2,2,1.00,,,1,109,A/B,,,ace2
+154,G673,G673_AttB_ACE2(H34D)_IRES-mCherry-P2A-PuroR,,G627B,G627,B,,,,,,,1,no,3,3,1.00,,,1,110,----- none -----,,,ace2
+155,G674,G674_AttB_ACE2(D38H)_IRES-mCherry-P2A-PuroR,,G627B,G627,B,,,,,,,1,no,2,1,0.50,,,1,111,A,,,ace2
+156,G675,G675_AttB_ACE2(Y41F)_IRES-mCherry-P2A-PuroR,,G627B,G627,B,,,,,,,1,no,2,1,0.50,,,1,112,A,,,ace2
+157,G676,G676_AttB_ACE2(Q42R)_IRES-mCherry-P2A-PuroR,,G627B,G627,B,,,,,,,1,no,2,1,0.50,,,1,113,B,,,ace2
+158,G677,G677_AttB_ACE2(Y83F)_IRES-mCherry-P2A-PuroR,,G627B,G627,B,,,,,,,1,no,3,3,1.00,,,1,114,----- none -----,,,ace2
+159,G678,G678_AttB_ACE2(K353)_IRES-mCherry-P2A-PuroR,,G627B,G627,B,,,,,,,1,no,2,2,1.00,,,1,115,A/B,,,ace2
+160,G679,G679_AttB_ACE2(G354D)_IRES-mCherry-P2A-PuroR,,G627B,G627,B,,,,,,,1,no,2,2,1.00,,,1,116,A/B,,,ace2
+161,G680,G680_AttB_ACE2(R357T)_IRES-mCherry-P2A-PuroR,,G627B,G627,B,,,,,1,1,1,no,1,1,1.00,,,1,117,A/B,,,ace2
+162,G681,G681_AttB_ACE2(K31D)_IRES-mCherry-P2A-PuroR,,G627B,G627,B,,,,,,,1,no,2,1,0.50,,,1,118,B,,,ace2
+163,G682,G682_AttB_ACE2(Y41A)_IRES-mCherry-P2A-PuroR,,G627B,G627,B,,,,,,,1,no,2,1,0.50,,,1,119,A,,,ace2
+164,G683,G683_AttB_ACE2(K353H)_IRES-mCherry-P2A-PuroR,,G627B,G627,B,,,,,,,1,no,2,2,1.00,,,1,120,A/B,,,ace2
+165,G684,G684_AttB_ACE2(K353A)_IRES-mCherry-P2A-PuroR,,G627B,G627,B,,,,,,,1,no,2,2,1.00,,,1,121,A/B,,,ace2
+166,G685,G685_AttB_ACE2(K353D)_IRES-mCherry-P2A-PuroR,,G627B,G627,B,,,,,0,0,1,no,0,0,0.00,,,0,121,----- none -----,,,ace2
+167,G686,G686_AttB_ACE2(R357A)_IRES-mCherry-P2A-PuroR,,G627B,G627,B,,,,,0,0,1,no,0,0,0.00,,,0,121,----- none -----,,,ace2
+168,G687,G687_AttB_ACE2(D355A)_IRES-mCherry-P2A-PuroR,,G627B,G627,B,,,,,,,1,no,2,2,1.00,,,1,122,A/B,,,ace2
+169,G688,G688_pLenti-CMV-H2B-mNeonGreen,,,G545,A,,,,,13,13,1,yes,6,0,0.00,,,0,122,----- none -----,,,pseudoviruses
+170,G689,G689_AttB_PIF6-Casp9-IRES-mCherry-P2A-Phy2,,,G592,C,,,,,~100,100,1,yes,5,1,0.20,,,1,123,D,,,optogenetics
+171,G690,G690_AttB_ACE2-IRES-TMPRSS2-T2A-mCherry-P2A-PuroR,,,G627,B,,,,,1,1,2,yes,1,0,0.00,,,0,123,----- none -----,,,ace2
+172,G691,G691A_pcDNA3-SARS-CoV-2-S-RBD-sfGFP-His6,,,A141184,,A141184_pcDNA3-SARS-CoV-2-S-RBD-sfGFP,,,,~200,200,1,yes,3,3,1.00,,,1,124,A,,,ace2
+173,G692,G692_AttB_CD74(p33)3xFLAG-IRES-mCherry-P2A-PuroR,,,G628,D,,,,,~150,150,1,yes,2,2,1.00,,,1,125,A,,,p41
+174,G693,G693_AttB(GA)_TKterm_AttB(GT)_sGFP-PTEN-IRES-mCherry-P2A-HygroR_noTerm_attP(GA)_IRES-UnaG-2A-Puro-Term,,,R4,,,G655,A,,0,0,2,yes,0,0,0.00,,,0,125,----- none -----,,,recombinastics
+175,G694,G694_AttB_rhT5alpha-IRES-mCherry-P2A-PuroR,,,G636,A,,,,,,,1,yes,1,1,1.00,,,1,126,D(frameshifted),,,targeted_deg
+176,G695,G695_AttB_Bpro(fsfix)-mNeonGreen-IRES-mCherry-P2A-PuroR,,,G652,B,,,,,,,1,yes,3,3,1.00,,,1,127,C,,,fp_standards
+177,G696,G696_AttB_nsp3_IRES_mCherry-P2A-PuroR,,,A141257,,,G622,A,,,,2,yes,8,0,0.00,,,0,127,----- none -----,,,protease_sensor
+178,G697,G697_AttB_ACE2-IRES-TACE-T2A-mCherry-P2A-PuroR,,,A31713,,A31713_pRK5F-TACE,G627,B,G627B_AttB_ACE2-IRES-mCherry-P2A-PuroR,,,2,yes,8,0,0.00,,,0,127,----- none -----,,,ace2
+179,G698,G698C_AttB_ACE2-IRES-mCherry-H2A-P2A-PuroR,,,A85051,,A85051_pmScarlet_H2A_C1,G627,B,G627B_AttB_ACE2-IRES-mCherry-P2A-PuroR,,,2,yes,5,1,0.20,,,1,128,C,,,ace2
+180,G699,G699A_pLenti-CMV-EGFP-H2A,,,A85051,,A85051_pmScarlet_H2A_C1,G545,A,G545A,,,2,yes,2,2,1.00,,,1,129,A?,,<-- Still a few gaps to sequence,pseudoviruses
+181,G700,G700_pLenti-CMV-hACE2-Hygro,,,A1786,,A1786_pcDNA3_hACE2,G161,A,pLenti-CMV-rtTA3G-Hygro,,,2,yes,8,0,0.00,,,0,129,----- none -----,,,ace2
+182,G701,G701_AttB(GA)-3kG_WPRE_3LTR,,,G161,A,pLenti-CMV-rtTA3G-Hygro,G594,A,G594A,0,0,2,yes,0,0,0.00,,,0,129,----- none -----,,,bc-lvs
+183,G702,G702_AttB_ACE2_IRES_mCherry-H2A-P2A-PuroR,,,A85051,,A85051_pmScarlet_H2A_C1,G627,B,G627B_AttB_ACE2-IRES-mCherry-P2A-PuroR,,,2,yes,5,0,0.00,,,0,129,----- none -----,,,ace2
+184,G703,G703_AttB_ACE2-IRES-iRFP670-P2A-PuroR,,,R17,,pKan-iRFP670_CloneB,G627,B,G627B_AttB_ACE2-IRES-mCherry-P2A-PuroR,,,2,yes,5,0,0.00,,,0,129,----- none -----,,,ace2
+185,G704,G704_pcDNA6B-SARS2_CoV2-S(ECD-TM)-VSVG(CD),,,R14,,R14_pcDNA6B-nCoV-S-FLAG,,,,1,1,1,yes,1,0,0.00,,,0,129,----- none -----,,,ace2
+186,G705,G705_pcDNA6B-SARS2_CoV2-S(CodonOpt-RRAR)-FLAG,,,R14,,R14_pcDNA6B-nCoV-S-FLAG,,,,1,1,1,yes,1,0,0.00,,,0,129,----- none -----,,,ace2
+187,G706,G706_nsp3cs1-15,,,G614,A,G614A,,,,84,84,1,yes,2,NA,,improperly designed,,0,129,----- none -----,,,protease_sensor
+188,G707,G707_nsp3cs1-13,,,G614,A,G614A,,,,78,78,1,yes,2,NA,,improperly designed,,0,129,----- none -----,,,protease_sensor
+189,G708,G708_nsp3cs1-11,,,G614,A,G614A,,,,60,60,1,yes,2,NA,,improperly designed,,0,129,----- none -----,,,protease_sensor
+190,G709,G709_nsp3cs1-9,,,G614,A,G614A,,,,45,45,1,yes,2,NA,,improperly designed,,0,129,----- none -----,,,protease_sensor
+191,G710,G710_pcDNA3_ACE2-sfGFP-His6,,,A1786,,A1786_pcDNA3_hACE2,G691,A,G691A_pcDNA3-SARS-CoV-2-S-RBD-sfGFP-His6,~150,150,2,yes,11,1,0.09,,,1,130,G,<-- Needs to be fixed b/c missing portion in ACE2,,ace2
+192,G711,G711_FlipGFP_nsp3cs1_mCherry_IRES-Puro,,,G382,C,G382C,G614,A,G614A,~150,150,2,yes,3,2,0.67,,,1,131,A?,C? as backup,,protease_sensor
+193,G712,G712_AttB_fuGFP-IRES-mCherry-H2A-P2A-PuroR,,,A85051,,A85051_pmScarlet_H2A_C1,G630,A,G630A,~150,150,2,yes,3,3,1.00,,,1,132,A?,C? as backup,,fp_standards
+194,G713,G713_AttB_UnaG-IRES-mCherry-H2A-P2A-PuroR,,,A85051,,A85051_pmScarlet_H2A_C1,G625,F,G625F,~150,150,2,yes,3,3,1.00,,,1,133,A,B/C? as backup,,fp_standards
+195,G714,G714C_AttB_ACE2-T2A-mCherry-P2A-PuroR,,,G627,B,,,,,,,1,yes,3,1,0.33,,,1,134,C,,,ace2
+196,G715,G715_AttB_EGFP-IRES-mCherry-H2A-P2A-PuroR,,,A85051,,A85051_pmScarlet_H2A_C1,G621,A,,,,2,yes,5,2,0.40,,,1,135,D?,F? as backup,<-- FOLLOW THIS UP!,fp_standards
+197,G716,G716_AttB_mNeonGreen-IRES-mCherry-H2A-P2A-PuroR,,,A85051,,A85051_pmScarlet_H2A_C1,G622,A,,,,2,yes,6,0,0.00,,,0,135,----- none -----,,,fp_standards
+198,G717,G717I_AttB_dnROCK1-IRES-mCherry-P2A-PuroR,,,A70567,,Addgene-70567_R777-E283 Hs.ROCK1,G274,A,,,,2,yes,10,1,0.10,,,1,136,I,,,misc
+199,G718,G718A_AttB(GA)_TKterm_AttB(GT)_sGFP-PTEN-IRES-mCherry-P2A-HygroR_noTerm_attP(GA)_IRES-UnaG-2A-Puro-Term,,,R4,,pKan-mNeonGreen,G655,A,,,,2,yes,3,1,0.33,,,1,137,A?,,,recombinastics
+200,G719,G719B_AttB_ACE2-GGS-mCherry-P2A-PuroR,,,G627,B,,,,,,,2,yes,3,2,0.67,,,1,138,B,C? as backup,,ace2
+201,G720,G720D_pcDNA6B-SARS2_CoV2-S(CodonOpt-d19)-FLAG,,,R14,,,,,,,,1,yes,6,1,0.17,,,1,139,D,,,ace2
+202,G721,G721A_AttB_T7pol-IRES-mCherry-P2A-PuroR,,,A65974,,,G630,A,,,,2,yes,3,3,1.00,,,1,140,A(fs),C(fs) is not a backup,,misc
+203,G722,G722A_pKan_T7pro-UnaG,,,G521,B,,,,,0,0,1,yes,3,1,0.33,,,1,141,C,,,fp_standards
+204,G723,G723C_pcDNA6B-SARS2_CoV2-S(CodonOpt)-FLAG_svelted,,,R14,,,,,,,,1,yes,3,3,1.00,,,1,142,C?,Mayybe B? as backup,,ace2
+205,G724,G724_Mpro(cs1)_8aa_FlipGFP-2A-mCherry_IRES-Puro,,,G711,A,,,,,,,1,yes,7,2,0.29,,,1,143,D?,E? as backup,,protease_sensor
+206,G725,G725B_Mpro(cs1)_7aa_FlipGFP-2A-mCherry_IRES-Puro,,,G711,A,,,,,,,1,yes,3,1,0.33,,,1,144,B?,,,protease_sensor
+207,G726,G726B_Mpro(cs1)_6aa_FlipGFP-2A-mCherry_IRES-Puro,,,G711,A,,,,,,,1,yes,3,3,1.00,,,1,145,B?,A/C? as backup,,protease_sensor
+208,G727,G727B_TEVp(cs)_7aa_FlipGFP-2A-mCherry_IRES-Puro,,,G711,A,,,,,,,1,yes,3,2,0.67,,,1,146,B,A? as backup,,protease_sensor
+209,G728,G728C_AttB_PIF6-Casp9-IRES-mCherry-P2A-Phy2,,,G689,D,,,,,,,1,yes,3,2,0.67,,,1,147,C(Phy-A309V),,,optogenetics
+210,G729,G729B_AttB_rhT5alpha-IRES-mCherry-P2A-PuroR_(Cleanup),,,G694,D,,G274,A,,,,2,yes,3,2,0.67,,,1,148,B,A? as backup,,targeted_deg
+211,G730,G730_pcDNA6B-SARS2_CoV2-S(Opt)-FLAG_RRARmut,,,R14,E,,,,,,,1,yes,4,1,0.25,,,1,149,E,,,ace2
+212,G731,G731_pcDNA6B-SARS2_CoV2-S(Opt)-FLAG_d19,,,R14,,,,,,,,1,yes,4,1,0.25,,,1,150,,G730A maybe dC19 but has mixed peaks...,,ace2
+213,G732,G732_AttB_ACE2(K31D)-GGS-HygroR_IRES-mCherry-P2A-PuroR,,G650A,G650,A,,,,,,,1,yes,7,0,0.00,,,0,150,----- none -----,,,ace2
+214,G733,G733A_AttB_ACE2(K353D)-GGS-HygroR_IRES-mCherry-P2A-PuroR,,G650A,G650,A,,,,,,,1,yes,3,3,1.00,,,1,151,A,B? C? as backup,,ace2
+215,G734,G734A_AttB_ACE2(K31D)-IRES-mCherry-H2A-P2A-PuroR,,G698C,G698,C,,,,,,,1,yes,3,1,0.33,,,1,152,A,,,ace2
+216,G735,G735A_AttB_ACE2(K353D)-IRES-mCherry-H2A-P2A-PuroR,,G698C,G698,C,,,,,,,1,yes,3,1,0.33,,,1,153,A,,,ace2
+217,G736,G736A_AttB_ACE2(K31D)-GGS-mCherry-P2A-PuroR,,G719B,G719,B,,,,,,,1,yes,3,1,0.33,,,1,154,A,,,ace2
+218,G737,G737B_AttB_ACE2(K353D)-GGS-mCherry-P2A-PuroR,,G719B,G719,B,,,,,,,1,yes,3,1,0.33,,,1,155,B,,,ace2
+219,G738,G738_AttB_ACE2_IRES_miRFP670-H2A-P2A-PuroR,,,A62449,,,G698,C,,,,2,yes,7,0,0.00,,,0,155,----- none -----,,,ace2
+220,G739,G739_pcDNA3_ACE2-sfGFP-His6,,,G710,G,,,,,,,1,yes,3,2,0.67,,,1,156,A,B? as backup,,ace2
+221,G740,G740D_pcDNA3_SARS1-SARS2(RBD)-C9,,,R12,,,R14,,,,,2,yes,9,7,0.78,,,1,157,D?,E?F?G?H?I?... not A(doesn't work),,ace2
+222,G741,G741B_pcDNA6B-SARS2-SARS1(RBD)-FLAG,,,R12,,,R14,,,,,2,yes,3,2,0.67,,,1,158,B,C? as backup,,ace2
+223,G742,G742_pcDNA6B-SARS2_CoV2-S(CodonOpt-d19)-FLAG_svelted,,,G720,D,,,,,,,1,yes,3,3,1.00,,,1,159,A,B? and C? as backup,,ace2
+224,G743,G743J_AttB_T7pol-IRES-mCherry-P2A-PuroR,,,G721,A,,,,,,,1,yes,9,1,0.11,,,1,160,J,A757T mut in T7 but OK otherwise,,misc
+225,G744,G744_attB_SigSeq-mCherry-mKG-TEVp-miRFP67_IRES-mCherry-P2A-PuroR,,,G359,A,,G536,G,,,,2,yes,3,2,0.67,,,1,161,B?,C? as backup,"<--- Cloning intermedia, so don't bother sequencing the rest of it....",protease_sensor
+226,G745,G745_AttB(GT)_sGFP-PTEN-IRES-mCherry-P2A-PuroR_noTerm_attP(GA)_IRES-UnaG-2A_Hygro-Term,,,G656,A,,,,,,,1,yes,3,2,0.67,,,1,162,B,A? as backup,,recombinastics
+227,G746,G746_pcDNA6B-SARS2_CoV2-S(Opt_P812R)-FLAG,,,R14,,,,,,,,1,yes,3,3,1.00,,,1,163,B,C? as backup,,ace2
+228,G747,G747_TKterm_AttB(GT)_sGFP-PTEN-IRES-mCherry-P2A-HygroR_noTerm_attP(GA)_IRES-UnaG-2A-Puro-Term,,,G718,A,,,,,,,1,yes,3,3,1.00,,,1,164,A,C? as backup,,recombinastics
+229,G748,G748A_AttB_[Kozak]ACE2-IRES-mCherry-H2A-P2A-PuroR,,G698C,G698,C,,,,,,,1,yes,3,1,0.33,,,1,165,A? <-- Redundant with G755A,,,ace2
+230,G749,G749A_AttB(GA)_A3G-EGFP_IRES-mCherry-P2A-PuroR,,,G373,A,,G419,C,,,,2,yes,3,3,1.00,,,1,166,A,B? C? as backup,,apobecs
+231,G750,G750A_AttB(GA)_EGFP-A3G-IRES-mCherry-P2A-PuroR,,,G374,A,,G419,C,,,,2,yes,3,2,0.67,,,1,167,A,B? as backup,,apobecs
+232,G751,G751A_AttB(GA)_A3H2-EGFP-IRES-mCherry-P2A-PuroR,,,G379,A,,G419,C,,,,2,yes,3,3,1.00,,,1,168,A,C? as backup,,apobecs
+233,G752,G752A_AttB_ACE2_IRES_miRFP670-H2A-P2A-PuroR,,,G635,A,,G698,C,,,,2,yes,3,3,1.00,,,1,169,A,B? C? as backup,,ace2
+234,G753,G753_pLenti-CMV-H2B-mNeonGreen,,,G545,A,,,,,,,1,yes,3,0,0.00,,,0,169,----- none -----,,,pseudoviruses
+235,G754,G754A_AttB_RBD-his-IRES-mCherry-P2A-PuroR,,,G713,A,,R23,,,,,2,yes,3,2,0.67,,,1,170,A,C? as backup,,ace2
+236,G755,G755A_AttB_[koz-mut]ACE2-IRES-mCherry-H2A-P2A-PuroR,,G698C,G698,C,,,,,,,1,yes,3,2,0.67,,,1,171,A,B? as backup,,ace2
+237,G756,G756A_AttB_[koz-mut]ACE2(K31D)-IRES-mCherry-H2A-P2A-PuroR,,G734A,G734,A,,,,,,,1,yes,3,2,0.67,,,1,172,A,B? as backup,,ace2
+238,G757,G757A_AttB_[koz-mut]ACE2(K353D)-IRES-mCherry-H2A-P2A-PuroR,,G735A,G735,A,,,,,,,1,yes,3,3,1.00,,,1,173,A,B? C? as backup,,ace2
+239,G758,G758A_AttB_ACE2(del)-IRES-mCherry-H2A-P2A-PuroR,,G698C,G698,C,,,,,,,1,yes,3,1,0.33,,,1,174,A,,,ace2
+240,G759,G759_AttB_ACE2(del)-GGS-mCherry-P2A-PuroR,,G719B,G719,B,,,,,,,1,yes,3,0,0.00,,,0,174,<---- Set up more colonies?,,,ace2
+241,G760,G760A_AttB_ACE2(del)-T2A-mCherry-P2A-PuroR,,G714C,G714,C,,,,,,,1,yes,3,3,1.00,,,1,175,A?,B? C? as backup,,ace2
+242,G761,G761A_attB_SigSeq-mCherry-mKG-TEVp-miRFP670_IRES-PuroR,,,G744,B,,,,,,100s,1,yes,3,3,1.00,,,1,176,A (Good! Note: mKG has a mut),B?C? as backup,,protease_sensor
+243,G762,G762B_AttB_CPH1-Casp9-IRES-HygroR-2A-3kGFP,,,G560,A,,,,,,100s,1,yes,3,1,0.33,,,1,177,B,,,optogenetics
+244,G763,G763_AttB(GA)-3kG-P2A-mNeonGrn_WPRE_3LTR,,,G545,A,,G594,A,,,57,2,yes,3,,0.00,,,0,177,,,,bc-lvs
+245,G764,G764B_pcDNA3_SARS1-WIV1(RBD),,,R12,,,R19,,,,153,2,yes,3,2,0.67,,,1,178,B,A? as backup,,ace2
+246,G765,G765A_AttB(GA)_sGFP-PTEN-IRES-sfCherry2(11)-P2A-HygroR,,,G514,B,,G418,C,,,100s,2,yes,3,3,1.00,,,1,179,A?,B? as backup,,recombinastics
+247,G766,G766A_AttB_Vif-IRES-sfCherry2(1-10)-P2A-PuroR,,,G515,B,,G333,B,,,~200,2,yes,3,3,1.00,,,1,180,A,C? as backup,,apobecs
+248,G767,G767A_AttB_T7pol-IRES-sfCherry2(1-10)-P2A-PuroR,,,G515,B,,G743,J,,,100-200,2,yes,3,1,0.33,,,1,181,A,,,misc
+249,G768,G768A_AttB_[Kozak]ACE2_IRES_miRFP670-H2A-P2A-PuroR,,,G752,A,,,,,,,1,yes,3,3,1.00,,,1,182,A?,B?C? as backup,,ace2
+250,G769,G769B_SARS2-CoV2-Spike-FLAG_D614G,,,R14,,,,,,,,1,yes,3,2,0.67,,,1,183,B,C? as backup,,ace2
+251,G770,G770A_AttB(GA)_TKterm_AttB(GT)_sGFP-PTEN-IRES-mCherry-P2A-PuroR_noTerm_attP(GA)_IRES-UnaG-2A-Puro-Term,,,G656,A,,R4,,,,,2,yes,3,1,0.33,,,1,184,A?,,,recombinastics
+252,G771,G771_attB_Vif(F39A)_IRES-mCherry-2A-PuroR,,,G333B,,,,,,,,1,yes,3,2,0.67,,,1,185,A?,C? as backup,,apobecs
+253,G772,G772_attB_Vif(H43E)_IRES-mCherry-2A-PuroR,,,G333B,,,,,,,,1,yes,4,1,0.25,,,1,186,"A as mixed peaks so transform and pick as D, E, F, G",,,apobecs
+254,G773,G773_attB_Vif(G84K)_IRES-mCherry-2A-PuroR,,,G333B,,,,,,,,1,yes,3,3,1.00,,,1,187,C?,B? A? as backup,,apobecs
+255,G774,G774_AttB(GA)_EGFP_IRES-mCherry-P2A-PuroR,,,G749,A,,,,,,100s,1,yes,3,0,0.00,,,0,187,,,,recombinastics
+256,G775,G775_AttB_ACE2_IRES_miRFP670-P2A-PuroR,,,G752,A,,,,,,12,1,yes,1,1,1.00,,,1,188,A?,,,ace2
+257,G776,G776_pcDNA3_SARS1-Rp3(RBD),,,R12,,,KAM3342,,,,12,2,yes,3,1,0.33,,,1,189,C?,,,ace2
+258,G777,G777_pcDNA3_SARS1-YN2013(RBD),,,R12,,,KAM3343,,,,4,2,yes,3,1,0.33,,,1,190,A?,,,ace2
+259,G778,G778_pcDNA3_SARS1-BtKY72(RBD),,,R12,,,KAM3342,,,,11,2,yes,2,1,0.50,,,1,191,B?,,,ace2
+260,G779,G779_AttB_b[meffBlue]-IRES-mCherry-P2A-PuroR,,,G274A,,,A117845,,,,1,2,yes,1,1,1.00,,,1,192,A?,,,fp_standards
+261,G780,G780_AttB_b[aeBlue]-IRES-mCherry-P2A-PuroR,,,G274A,,,A117846,,,,4,2,yes,3,0,0.00,,,0,192,,,,fp_standards
+262,G781,G781_AttB_b[amilCP]-IRES-mCherry-P2A-PuroR,,,G274A,,,A117847,,,,31,2,yes,3,0,0.00,,,0,192,,,,fp_standards
+263,G782,G782_pLenti-CMV-hACE2-Hygro,,,A1786,,,G161,A,,,24,2,yes,3,0,0.00,,,0,192,,,,ace2
